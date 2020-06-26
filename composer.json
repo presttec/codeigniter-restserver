@@ -1,0 +1,11 @@
+{
+    "name": "presttec/codeigniter-restserver",
+    "description": "CI Rest Server",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"RestServer\\": "src/"}
+    },
+    "require": {}
+}
