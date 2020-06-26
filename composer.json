@@ -1,9 +1,16 @@
 {
     "name": "presttec/codeigniter-restserver",
-    "description": "CI Rest Server",
+    "description": "CodeIgniter Rest Server",
+	"keywords": ["codeigniter", "rest server", "controller", "api"],
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
+    "conflict": {
+        "chriskacerguis/codeigniter-restserver": "*",
+        "hanischit/codeigniter-restserver": "*",
+        "transfuse/codeigniter-restserver": "*",
+        "wangshixiang/codeigniter-restserver": "*"
+    },
     "autoload": {
         "psr-4": {"RestServer\\": "src/"}
     },
